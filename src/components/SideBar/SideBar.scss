@@ -1,0 +1,85 @@
+.menu__icon {
+  border: none !important;
+  background: transparent !important;
+  color: #fff !important;
+  font-size: 25px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.closeBtn {
+  border: none !important;
+  background: transparent !important;
+  color: #fff !important;
+  font-size: 25px;
+}
+.ant-drawer-header {
+  display: none !important;
+}
+.ant-drawer-close {
+  color: white !important;
+}
+.ant-drawer-title {
+  color: #fff;
+}
+
+.ant-drawer-body {
+  .bdr__btm {
+    border-bottom: 1px solid rgba(219, 228, 247, 0.75);
+  }
+  background-color: #0f1724;
+  color: #fff !important;
+  a {
+    color: #fff !important;
+    text-decoration: none !important;
+    transition: all 0.5s ease;
+    font-weight: bold !important;
+    &:hover {
+      color: #f42f54 !important;
+    }
+  }
+  .dwr__btn {
+    display: inline-block;
+    a {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 40px;
+      background-image: linear-gradient(to right, #f42f54 0%, #f8aa38 100%);
+      padding: 10px 20px !important;
+      margin-top: 10px !important;
+      box-sizing: border-box;
+      font-size: 13px !important;
+      transition: all 0.5s;
+      &:hover {
+        color: #fff !important;
+      }
+      &:hover::before {
+        z-index: -2;
+      }
+      &::before {
+        border-radius: 40px;
+        content: "MINT NOW";
+        position: absolute;
+        background-color: #0f1932;
+        font-size: 13px !important;
+        width: 97%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+.sidebar__link {
+  color: #fff;
+  padding: 40px 0px;
+}
+.dwr__link {
+  padding: 20px 0px;
+}
+.my-drawer {
+  //   width: 50%;
+}
